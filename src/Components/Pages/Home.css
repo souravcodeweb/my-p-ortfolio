@@ -1,0 +1,62 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 10%;
+}
+.hero .text h1{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.hero .text h2{
+    color: #fff;
+    font-size: 32px;
+}
+
+.hero .text h3{
+    color: #fff;
+}
+.hero .text p{
+    color: #fff;
+}
+.hero .text span{
+    color: #1450dc;
+}
+
+.socile_media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #1450dc;
+    border: 2px solid #1450dc;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.socile_media a:hover{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn a{
+   padding: 10px 40px;
+    border: 2px solid #1450dc;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    background-color: #1450dc;
+    box-shadow: 0px 4px 0px 0px rgba(rgb(20, 80, 220));
+}
+
+.img img{
+    border-radius: 20px;
+}
