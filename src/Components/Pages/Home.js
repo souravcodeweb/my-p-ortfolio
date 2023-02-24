@@ -6,6 +6,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -56,9 +57,9 @@ const Home = () => {
           </a>
         </div>
         <div className="btn">
-          <a href="#" download="#">
+          <Link href="#" download="#">
             Download CV
-          </a>
+          </Link>
         </div>
       </div>
       <div className="img">
