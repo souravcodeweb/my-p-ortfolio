@@ -6,7 +6,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
-import Typewriter from "typewriter-effect";
+
 
 const Home = () => {
   return (
