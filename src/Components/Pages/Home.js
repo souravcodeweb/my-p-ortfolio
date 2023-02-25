@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../Pages/Home.css";
 import img from "../../../src/Images/myimg.jpg";
 import { AiOutlineTwitter } from "react-icons/ai";
