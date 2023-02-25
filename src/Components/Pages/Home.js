@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Pages/Home.css";
 import img from "../../../src/Images/myimg.jpg";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -7,16 +7,36 @@ import { AiFillYoutube } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
+
+  const [state] = useState({
+    titel: "Hello, It's Me",
+    myname: "Sourav Mandal",
+  })
+
+
   return (
     <div className="hero">
       <div className="text">
-        <h1>Hello, It's Me</h1>
-        <h2>Sourav Mandal</h2>
+        <h1>{state.titel}</h1>
+        <h2>{state.myname}</h2>
+        <Typewriter
+        options={{autoStart: true,
+        loop: true,
+      delay: 40,
+    strings: [
+      "I am a Web Developer",
+      "I am a Full Stact Web Deeveloper",
+      "I am a Youtuber",
+      "I am a Content Creator",
+      "I am a Mentor"
+    ]
+  }}
+  />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br /> Eum,
-          voluptate. Lorem ipsum dolor sit amet.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />  Eum, voluptate. Lorem ipsum dolor sit amet.
         </p>
 
         <div className="socile_media">
@@ -57,7 +77,7 @@ const Home = () => {
           </a>
         </div>
         <div className="btn">
-          <Link href="#" download="#">
+          <Link href="/7" download="#">
             Download CV
           </Link>
         </div>
