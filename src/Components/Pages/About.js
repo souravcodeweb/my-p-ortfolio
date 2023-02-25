@@ -1,7 +1,6 @@
 import React from 'react';
 import "../Pages/About.css"
 import { useState } from 'react';
-import img from "../../../src/Images/myimg.jpg";
 
 const About = () => {
   const [about] = useState({
