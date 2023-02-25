@@ -1,0 +1,19 @@
+.heading h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.about_main p{
+    padding: 50px 22%;
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+@media (max-width: 600px){
+    .about_main p{
+        padding: 50px 4%;
+        text-align: center;
+    }
+}
