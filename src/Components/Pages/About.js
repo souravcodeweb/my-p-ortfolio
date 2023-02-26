@@ -51,13 +51,22 @@ const About = () => {
           </p>
         </div>
         <div className="about_socile">
-          <a href="#" rel="noreferrer" target="_blank">
-            <AiFillTwitterCircle />
+          <a
+            href="https://twitter.com/souravcode"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineTwitter />
           </a>
-          <a href="#" rel="noreferrer" target="_blank">
+
+          {/* <a href="#" rel="noreferrer" target="_blank">
             <HiOutlineMail />
-          </a>
-          <a href="#" rel="noreferrer" target="_blank">
+          </a> */}
+          <a
+            href="https://www.linkedin.com/in/souravcode/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillLinkedin />
           </a>
         </div>
