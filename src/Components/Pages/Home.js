@@ -21,7 +21,7 @@ const Home = () => {
       <div className="hero">
         <div className="text">
           <h1>{state.titel}</h1>
-          <h2>{state.titel}</h2>
+          <h2>{state.myname}</h2>
           <Typewriter
             options={{
               autoStart: true,
@@ -34,11 +34,13 @@ const Home = () => {
                 "I am a Content Creator",
                 "I am a Mentor",
               ],
-            }}
+            }} 
           />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />{" "}
-            Eum, voluptate. Lorem ipsum dolor sit amet.
+            Hi, I am a front-end web developer with a
+            passion <br /> for creating engaging and responsive websites. <br /> With 1.5
+            years of experience in the industry, <br /> I have a deep understanding of
+            HTML, CSS, JavaScript, <br /> and other web technologies.
           </p>
 
           <div className="socile_media">
@@ -89,7 +91,7 @@ const Home = () => {
         </div>
       </div>
 
-      <About/>
+      <About />
     </>
   );
 };

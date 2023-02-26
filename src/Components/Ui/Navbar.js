@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      <span className="nav-logo">Sourav.</span>
+      <h1 className="nav-logo">Sourav <span>.</span></h1>
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link to="/">Home</Link>
         <Link to="about">About</Link>

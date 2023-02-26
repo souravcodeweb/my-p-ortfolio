@@ -7,7 +7,7 @@ import Work from "./Components/Pages/Work";
 import Videos from "./Components/Pages/Videos";
 import Blogs from "./Components/Pages/Blogs";
 import Contact from "./Components/Pages/Contact";
-import Skills from "./Components/Pages/Skillss";
+import Skills from "./Components/Pages/Skills";
 
 
 function App() {
