@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {AiFillHtml5} from "react-icons/ai";
+import "../Pages/Skills.css";
 
 
 const Skills = () => {

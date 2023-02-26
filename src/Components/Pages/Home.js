@@ -9,6 +9,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import About from "./About";
+import Skills from "./Skills";
 
 const Home = () => {
   const [state] = useState({
@@ -92,8 +93,11 @@ const Home = () => {
       </div>
 
       <About />
+      <Skills/>
     </>
   );
 };
 
 export default Home;
+
+
