@@ -1,8 +1,8 @@
 import React from "react";
 import "../Pages/About.css";
 import { useState } from "react";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { HiOutlineMail } from "react-icons/hi";
+import { AiOutlineTwitter } from "react-icons/ai";
+// import { HiOutlineMail } from "react-icons/hi";
 import { AiFillLinkedin } from "react-icons/ai";
 
 const About = () => {
