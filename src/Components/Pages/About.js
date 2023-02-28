@@ -12,6 +12,7 @@ const About = () => {
   });
   return (
     <>
+      <div className="about">
       <div className="heading">
         <h1>
           <span>{about.titel}</span> {about.me}
@@ -68,6 +69,7 @@ const About = () => {
         >
           <AiFillLinkedin />
         </a>
+      </div>
       </div>
     </>
   );

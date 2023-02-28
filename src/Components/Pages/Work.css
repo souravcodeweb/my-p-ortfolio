@@ -1,0 +1,65 @@
+.work_heading{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.work_heading h1 span{
+    color: #1450dc;
+}
+.work{
+    background-color: #000;
+}
+
+.work_box{
+    padding: 100px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work_box .box{
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+}
+.work_box .box:hover{
+    background-color: #1450dc;
+    color: #fff;
+}
+.work_box .box img{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.work_box .box h3{
+    padding: 20px 10px;
+}
+.work_box .box p{
+    padding: 10px 10px;
+}
+.work_box .box .btn{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.work_box .box .btn button{
+    padding: 10px 45px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #1450dc;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.work_box .box .btn button:hover{
+    border: 2px solid #fff;
+    background: #1450dc;
+    color: #fff;
+}
