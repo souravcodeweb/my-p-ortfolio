@@ -17,6 +17,15 @@
     align-items: center;
 }
 
+@media (max-width: 700px){
+    .work_box{
+        flex-direction: column;
+    }
+    .work_box .box{
+        margin: 20px;
+    }
+}
+
 .work_box .box{
     width: 350px;
     height: 500px;
@@ -49,7 +58,7 @@
     align-items: center;
 }
 .work_box .box .btn button{
-    padding: 10px 45px;
+    padding: 8px 40px;
     border-radius: 10px;
     background-color: #fff;
     border: 2px solid #1450dc;
