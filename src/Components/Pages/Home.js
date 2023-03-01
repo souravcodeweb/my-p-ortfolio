@@ -11,6 +11,7 @@ import Typewriter from "typewriter-effect";
 import About from "./About";
 import Skills from "./Skills";
 import Work from "./Work";
+import Blogs from "./Blogs";
 
 const Home = () => {
   const [state] = useState({
@@ -96,6 +97,7 @@ const Home = () => {
       <About />
       <Skills/>
       <Work/>
+      <Blogs/>
     </>
   );
 };
